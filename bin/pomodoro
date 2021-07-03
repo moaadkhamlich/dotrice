@@ -1,0 +1,5 @@
+#!/usr/bin/sudo bash
+mv /home/moaad/.cache/google-chrome/Default /home/moaad/.cache/google-chrome/back
+cp /home/moaad/Scaricati/hosts.txt /etc/hosts
+at now + 1 hour -f /home/moaad/bin/clear.sh
+mv /home/moaad/.cache/google-chrome/back /home/moaad/.cache/google-chrome/Default

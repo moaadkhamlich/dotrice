@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -e main.C ]
+then
+    command vi main.C
+else
+        command vi main.tex
+fi
